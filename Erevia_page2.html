@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styleerevia.css" />
+        <title>Erevia: Le site</title>
+    </head>
+    <body>
+      <p>
+          Cette page est juste là pour montrer les acquis des dernières sections
+      </p>
+      <p>
+          Tout d'abord, un beau tableau
+      </p>
+      <table>
+        <tr>
+            <th>
+                1
+            </th>
+            <th>
+                2
+            </th>
+            <th>
+                3
+            </th>
+        </tr>
+          <tr>
+              <td>Bonjour</td>
+              <td>Bonjour</td>
+              <td>Bonjour</td>
+          </tr>
+          <tr>
+              <td>Bonjour</td>
+              <td colspan="2">Bonjour</td>
+          </tr>
+      </table>
+    <p> Et maintenant un formulaire.</p>
+    <p> Qu'avez-vous pensé de mon site ?</p>
+    <form method="post" action="traitement.php">
+        <p>
+        <label>Votre nom</label> 
+        <input type="text" name="pseudo" id="pseudo">
+        </p>
+    </form>
+    <form method="post" action="traitement.php">
+        <p>
+        <label>Votre mot de passe</label> 
+        <input type="password" name="pass" id="pass">
+        </p>
+    </form>
+    <form method="post" action="traitement.php">
+        <p>
+        <label>Commentaire</label> 
+        <textarea name="Commentaire" id="Commentaire"></textarea>
+        </p>
+    </form>
+        <form method="post" action="traitement.php">
+        <p>
+        <label>Note</label> 
+        <input type="range" name="Note" id="Note" min="0" max="20" step="1"></input>
+        </p>
+    </form>
+    </form>
+    <form method="post" action="traitement.php">
+        <p>
+        Veuillez indiquer votre âge:<br />
+        <input type="radio" name="Age" value="moins10"></input>
+        <label>0 - 10 ans</label><br />
+        <input type="radio" name="Age" value="moins20"></input>
+        <label>10 - 20 ans</label><br />
+        <input type="radio" name="Age" value="moins30"></input>
+        <label>20 - 30 ans</label><br />
+        <input type="radio" name="Age" value="plus30"></input>
+        <label>Plus de 30 ans</label><br />
+        </p>
+    </form>
+    <div id="modif">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <footer>
+        <div id="pied">
+            <p>Tous droits réservés</p>
+            <p>
+                Contacts<br/>
+                Mail: monmail@ici.fr<br/>
+                <a href="#"><img src="insta.png"></a>
+            </p>
+            <p class="sitext">
+                Créé grâce à <a href="https://openclassrooms.com/fr/" target="_blank">OpenClassRooms</a>
+            </p>
+            
+        </div>
+    </footer>
+    </body>
+</html>

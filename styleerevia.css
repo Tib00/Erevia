@@ -1,0 +1,90 @@
+#modif
+{
+	color: blue;
+}
+@media all and (max-width:  1024px)
+{
+	#modif
+	{
+		color:  red;
+	}
+	#couv
+	{
+		display: none;
+	}
+}
+body
+{
+	background-color: #FFDAAA;
+}
+header,footer
+{
+	border:  2px black solid;
+	box-shadow: 3px 3px 3px black;
+}
+header
+{
+	width: 1200px;
+	font-size: 40px;
+}
+h1
+{
+	text-align: center;
+}
+h2
+{
+	border-bottom: 1px black solid;
+}
+img[src="Erevia_couv_mini.jpg"]
+{
+	border: 1px solid black;
+	box-shadow: 5px 0px 5px black;
+	margin-right: 20px;
+}
+#topsection
+{
+	display:  flex;
+	justify-content: space-between;
+}
+nav
+{
+	border: 2px solid #F28F64;
+	background-color: #F28F64;
+	margin-top: 10px;
+	width: 250px;
+}
+p[class="presentation"]
+{
+	text-align: justify;
+	font-family: comic sans MS, times,  serif;
+}
+#where /* Avec flexbox, centrer le paragraphe */
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#pied /* Avec flexbox permet de répartir les éléments du pied de page en ligne */
+{
+	display: flex;
+	justify-content: space-between;
+}
+p[class="sitext"] /* Evite que le site exterieur ne soit collé à l'écran */
+{
+	margin-right: 20px;
+}
+/* deuxième page */
+td,th
+{
+	border: 1px solid white;
+}
+table
+{
+	border-collapse: collapse;
+}
+textarea
+{
+	width: 1200px;
+	height: 300px;
+}
